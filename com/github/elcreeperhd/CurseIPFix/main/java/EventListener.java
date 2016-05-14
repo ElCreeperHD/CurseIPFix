@@ -27,7 +27,7 @@ public class EventListener implements Listener{
 		}	
 
 		fixedip = fixedip.replaceAll("/", "");
-		final String bungeeip = "104.129.41.37";
+		final String bungeeip = "0.0.0.0"; // THE IP TO BE WHITELISTED
 		Log.info(ev.getPlayer().getName() + "joined using " + fixedip);
 		try{	
 
